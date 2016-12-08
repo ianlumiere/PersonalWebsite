@@ -5,7 +5,7 @@
 }
 body {
   background: #FFFFFF;
-  color: #67727A;
+  color: #F0F0F0;
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
 }
@@ -14,6 +14,7 @@ h3 {
   line-height: 155%;
   font-weight: 200;
   padding-top: 5% 0;
+  padding-bottom: 5%;
 }
 #logo {
   margin: 20px;
@@ -50,6 +51,7 @@ nav ul li {
 nav ul li a {
   color: #F5F5F5;
   text-decoration: none;
+  transition: all 0.5s ease;
 }
 nav ul li a:hover {
   color: #5C6BC0;
@@ -68,4 +70,70 @@ nav ul li a:hover {
   background-image: url(file:///Users/ianlumiere/Dropbox/CS%20Projects/Resume%20Website/img/20483.jpg);
   background-repeat: no-repeat;
   background-position: center top;
+}
+.one-fourth {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+#Experience {
+  background-color: #F06292;
+  transition: all 0.5s ease;
+}
+#Experience:hover {
+  color: #5C6BC0;
+}
+#Education {
+  background-color: #4FC3F7;
+  transition: all 0.5s ease;
+}
+#Education:hover {
+  color: #5C6BC0;
+}
+#Projects {
+  background-color: #64B5F6;
+  transition: all 0.5s ease;
+}
+#Projects:hover {
+  color: #5C6BC0;
+}
+#Skills {
+  background-color: #7986CB;
+  transition: all 0.5s ease;
+}
+#Skills:hover {
+  color: #5C6BC0;
+}
+.one-fourth i {
+  color: #FFFFFF;
+  font-size: 200%;
+  padding: 5% 0 2% 0;
+  transition: all 0.5s ease;
+}
+.one-fourth i:hover {
+  color: #5C6BC0;
+}
+.social {
+  list-style-type: none;
+  text-align: center;
+  background-color: #81D4FA;
+}
+.social li {
+  display: inline;
+}
+.social i {
+  font-size: 200%;
+  margin: 1%;
+  padding: 1% 5% 1% 5%;
+  color: #FFFFFF;
+  transition: all 0.5s ease;
+}
+.social i:hover {
+  color: #5C6BC0;
+}
+footer.second {
+  padding: 15px 0 15px 0;
+  text-align: center;
+  max-height: 20px;
+  color: #4FC3F7;
 }
