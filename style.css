@@ -137,3 +137,46 @@ footer.second {
   max-height: 20px;
   color: #4FC3F7;
 }
+/*---Media-Adjustment---*/
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 125%;
+  }
+  header {
+    position: absolute;
+  }
+  #logo {
+    background: url (file:///Users/ianlumiere/Documents/cutmypic%2050x50px%20copy.png) no-repeat center;
+  }
+  #menu-icon {
+    display: inline-block;
+  }
+  nav ul, nav:active ul {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    padding: 20px;
+    background: #4FC3F7;
+    right: 20px;
+    top: 60px;
+    width: 50%;
+  }
+  nav:hover ul{
+    display: block;
+  }
+  nav li {
+    text-align: left;
+    width: 100%;
+  }
+  .one-fourth {
+    float: left;
+    width: 50%;
+  }
+  .one-fourth i {
+    font-size: 100%;
+    padding: 4% 0 1% 0;
+  }
+  .social i {
+    font-size: 140%;
+  }
+}
