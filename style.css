@@ -116,12 +116,14 @@ nav ul li a:hover {
 }
 /*---End Banner---*/
 /*---Start Main Section---*/
+.Main {
+  color: #1A237E;
+}
 .Main h2 {
-  color: #000000;
   text-align: center;
   font-size: 350%;
   font-weight: 300;
-  padding: 10% 0 2% 0;
+  padding: 10% 0 0 0;
 }
 .Main h4 {
   font-size: 225%;
@@ -137,7 +139,28 @@ nav ul li a:hover {
   font-weight: 300;
 }
 .ExperienceMain {
-  max-width: 1000px;
+  margin: 30px;
+  width: 60%;
+  float: left;
+}
+.EducationMain {
+  margin: 30px;
+}
+.OSU {
+
+}
+.UCLA {
+
+}
+.IU {
+
+}
+.SkillsMain {
+  margin: 30px;
+}
+.ProjectsMain {
+  margin: 30px;
+  clear: left;
 }
 /*---End Main Section---*/
 /*---Start Footers---*/
@@ -208,11 +231,12 @@ footer.second {
   .social i {
     font-size: 140%;
   }
-  h2 {
-    color: #000000;
-    text-align: center;
+  .Main h2 {
     font-size: 200%;
     font-weight: 300;
+  }
+  .EducationMain {
+    width: 100%;
   }
 }
 /*---End Media Adjustment---*/
