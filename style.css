@@ -5,7 +5,6 @@
 }
 body {
   background: #FFFFFF;
-  color: #F0F0F0;
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
 }
@@ -60,6 +59,7 @@ nav ul li a:hover {
   color: #5C6BC0;
 }
 /*---End Navigation---*/
+/*---Start Banner---*/
 .banner {
   width: 100%;
 }
@@ -75,6 +75,7 @@ nav ul li a:hover {
   width: 25%;
   float: left;
   text-align: center;
+  color: #F0F0F0;
 }
 #Experience {
   background-color: #F06292;
@@ -113,6 +114,33 @@ nav ul li a:hover {
 .one-fourth i:hover {
   color: #5C6BC0;
 }
+/*---End Banner---*/
+/*---Start Main Section---*/
+.Main h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 350%;
+  font-weight: 300;
+  padding: 10% 0 2% 0;
+}
+.Main h4 {
+  font-size: 225%;
+  font-weight: 300;
+  padding: 1% 0 1% 0;
+}
+.Main h5 {
+  font-size: 140%;
+  font-weight: 300;
+  padding: 1% 0 1% 0;
+}
+.Main li {
+  font-weight: 300;
+}
+.ExperienceMain {
+  max-width: 1000px;
+}
+/*---End Main Section---*/
+/*---Start Footers---*/
 .social {
   list-style-type: none;
   text-align: center;
@@ -137,7 +165,8 @@ footer.second {
   max-height: 20px;
   color: #4FC3F7;
 }
-/*---Media-Adjustment---*/
+/*---End Footers---*/
+/*---Start Media Adjustment---*/
 @media screen and (max-width: 768px) {
   h3 {
     font-size: 125%;
@@ -179,4 +208,11 @@ footer.second {
   .social i {
     font-size: 140%;
   }
+  h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 300;
+  }
 }
+/*---End Media Adjustment---*/
