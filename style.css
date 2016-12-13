@@ -145,20 +145,29 @@ nav ul li a:hover {
   margin: 30px;
 }
 .OSU {
-  list-style: none;
+  list-style-type: none;
+}
+.OSU p {
+  margin-bottom: 25px;
 }
 .UCLA {
-  list-style: none;
+  list-style-type: none;
+}
+.UCLA p {
+  margin-bottom: 25px;
 }
 .IU {
-  list-style: none;
+  list-style-type: none;
 }
-.SkillsMain {
-  margin: 30px;
+.IU p {
+  margin-bottom: 25px;
 }
 .ProjectsMain {
-  margin: 30px;
-  clear: left;
+  margin: inherit;
+  float: left;
+  width: 60%;
+}
+.SkillsMain {
 }
 /*---End Main Section---*/
 /*---Start Footers---*/
