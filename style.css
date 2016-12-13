@@ -128,12 +128,10 @@ nav ul li a:hover {
 .Main h4 {
   font-size: 225%;
   font-weight: 300;
-  padding: 1% 0 1% 0;
 }
 .Main h5 {
   font-size: 140%;
   font-weight: 300;
-  padding: 1% 0 1% 0;
 }
 .Main li {
   font-weight: 300;
@@ -147,13 +145,13 @@ nav ul li a:hover {
   margin: 30px;
 }
 .OSU {
-
+  list-style: none;
 }
 .UCLA {
-
+  list-style: none;
 }
 .IU {
-
+  list-style: none;
 }
 .SkillsMain {
   margin: 30px;
