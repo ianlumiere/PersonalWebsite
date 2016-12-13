@@ -138,38 +138,42 @@ nav ul li a:hover {
 }
 .ExperienceMain {
   margin: 30px;
-  width: 60%;
+  width: 55%;
   float: left;
-}
-.EducationMain {
-  margin: 30px;
-}
-.OSU {
-  list-style-type: none;
-}
-.OSU p {
-  margin-bottom: 25px;
-}
-.UCLA {
-  list-style-type: none;
-}
-.UCLA p {
-  margin-bottom: 25px;
-}
-.IU {
-  list-style-type: none;
-}
-.IU p {
-  margin-bottom: 25px;
 }
 .ProjectsMain {
   margin: inherit;
   float: left;
   width: 60%;
 }
-.SkillsMain {
-}
 /*---End Main Section---*/
+/*---Start Sidebar Section---*/
+.sidebar{
+  float: left;
+  max-width: 40%;
+  padding: 20px;
+  color: #1A237E;
+}
+.sidebar h4 {
+  font-size: 225%;
+  font-weight: 300;
+}
+.sidebar h5 {
+  font-size: 140%;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.education-info{
+  list-style: none;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+.education-img{
+  margin: 0 10px 10px 0;
+}
+/*---End Sidebar Section---*/
 /*---Start Footers---*/
 .social {
   clear: left;
