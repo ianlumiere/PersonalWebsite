@@ -172,6 +172,7 @@ nav ul li a:hover {
 /*---End Main Section---*/
 /*---Start Footers---*/
 .social {
+  clear: left;
   list-style-type: none;
   text-align: center;
   background-color: #81D4FA;
