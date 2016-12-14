@@ -132,6 +132,8 @@ nav ul li a:hover {
 .content h5 {
   font-size: 140%;
   font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .content li {
   font-weight: 300;
