@@ -116,35 +116,35 @@ nav ul li a:hover {
 }
 /*---End Banner---*/
 /*---Start Main Section---*/
-.Main {
+.content {
   color: #1A237E;
 }
-.Main h2 {
+.content h2 {
   text-align: center;
   font-size: 350%;
   font-weight: 300;
   padding: 10% 0 0 0;
 }
-.Main h4 {
+.content h4 {
   font-size: 225%;
   font-weight: 300;
 }
-.Main h5 {
+.content h5 {
   font-size: 140%;
   font-weight: 300;
 }
-.Main li {
+.content li {
   font-weight: 300;
 }
-.ExperienceMain {
+.experience {
   margin: 30px;
   width: 55%;
   float: left;
 }
-.ProjectsMain {
-  margin: inherit;
+.projects {
+  margin: 30px;
   float: left;
-  width: 60%;
+  width: 55%;
 }
 /*---End Main Section---*/
 /*---Start Sidebar Section---*/
