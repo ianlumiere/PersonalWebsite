@@ -77,33 +77,38 @@ nav ul li a:hover {
   text-align: center;
   color: #F0F0F0;
 }
+.one-fourth a {
+  text-decoration:none;
+  display: block;
+  color: #F0F0F0;
+}
+.one-fourth a:link {
+  text-decoration:none;
+  display: block;
+  color: #F0F0F0;
+}
+.one-fourth a:visited {
+  text-decoration:none;
+  display: block;
+  color: #F0F0F0;
+}
+.one-fourth a:hover {
+  text-decoration:none;
+  display: block;
+  transition: all 0.5s ease;
+  color: #5C6BC0;
+}
 #Experience {
   background-color: #F06292;
-  transition: all 0.5s ease;
-}
-#Experience:hover {
-  color: #5C6BC0;
 }
 #Projects {
   background-color: #4FC3F7;
-  transition: all 0.5s ease;
-}
-#Projects:hover {
-  color: #5C6BC0;
 }
 #Education {
   background-color: #64B5F6;
-  transition: all 0.5s ease;
-}
-#Education:hover {
-  color: #5C6BC0;
 }
 #Skills {
   background-color: #7986CB;
-  transition: all 0.5s ease;
-}
-#Skills:hover {
-  color: #5C6BC0;
 }
 .one-fourth i {
   color: #FFFFFF;
