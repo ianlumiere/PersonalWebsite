@@ -84,18 +84,18 @@ nav ul li a:hover {
 #Experience:hover {
   color: #5C6BC0;
 }
-#Education {
+#Projects {
   background-color: #4FC3F7;
   transition: all 0.5s ease;
 }
-#Education:hover {
+#Projects:hover {
   color: #5C6BC0;
 }
-#Projects {
+#Education {
   background-color: #64B5F6;
   transition: all 0.5s ease;
 }
-#Projects:hover {
+#Education:hover {
   color: #5C6BC0;
 }
 #Skills {
@@ -137,6 +137,10 @@ nav ul li a:hover {
 }
 .content li {
   font-weight: 300;
+  margin: 15px;
+}
+.skills-list {
+  margin: 15px;
 }
 .experience-and-projects {
   margin: 30px;
@@ -176,6 +180,21 @@ nav ul li a:hover {
 }
 .skills {
   margin-top: 0;
+}
+.skills h4 {
+  margin-bottom: 15px;
+}
+.skills h5 {
+  padding-top: 15px;
+}
+.skills li {
+  display: inline;
+  margin: 15px;
+  font-size: 120%;
+  font-weight: 300;
+}
+.skills i {
+  font-size: 280%;
 }
 /*---End Sidebar Section---*/
 /*---Start Footers---*/
