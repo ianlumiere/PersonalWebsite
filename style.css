@@ -41,7 +41,7 @@ ul {
 }
 nav ul li {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 125%;
+  font-size: 150%;
   font-weight: 200;
   display: inline-block;
   float: left;
@@ -75,40 +75,44 @@ nav ul li a:hover {
   width: 25%;
   float: left;
   text-align: center;
-  color: #F0F0F0;
+  color: #FFFFFF;
 }
 .one-fourth a {
   text-decoration:none;
   display: block;
-  color: #F0F0F0;
+  color: #FFFFFF;
 }
 .one-fourth a:link {
   text-decoration:none;
   display: block;
-  color: #F0F0F0;
+  color: #FFFFFF;
 }
 .one-fourth a:visited {
   text-decoration:none;
   display: block;
-  color: #F0F0F0;
+  color: #FFFFFF;
 }
 .one-fourth a:hover {
   text-decoration:none;
   display: block;
   transition: all 0.5s ease;
-  color: #5C6BC0;
+  color: #9FA8DA;
 }
 #Experience {
-  background-color: #F06292;
+  /*background-color: #F06292;*/
+  background-color: #607D8B;
 }
 #Projects {
-  background-color: #4FC3F7;
+  /*background-color: #4FC3F7;*/
+  background-color: #455A64;
 }
 #Education {
-  background-color: #64B5F6;
+  /*background-color: #64B5F6;*/
+  background-color: #263238;
 }
 #Skills {
-  background-color: #7986CB;
+  /*background-color: #7986CB;*/
+  background-color: #000000;
 }
 .one-fourth i {
   color: #FFFFFF;
@@ -117,18 +121,13 @@ nav ul li a:hover {
   transition: all 0.5s ease;
 }
 .one-fourth i:hover {
-  color: #5C6BC0;
+  color: #9FA8DA;
 }
 /*---End Banner---*/
 /*---Start Main Section---*/
 .content {
-  color: #1A237E;
-}
-.content h2 {
-  text-align: center;
-  font-size: 350%;
-  font-weight: 300;
-  padding: 10% 0 0 0;
+  /*color: #1A237E;*/
+  color: #263238;
 }
 .content h4 {
   font-size: 225%;
@@ -147,6 +146,17 @@ nav ul li a:hover {
 .skills-list {
   margin: 15px;
 }
+.skills-list .skill {
+  white-space: nowrap;
+  padding: 3px 7px;
+  border-radius: 5px;
+  font-size: 13px;
+  background: #607D8B;
+  color: #FFFFFF;
+}
+.skills-list .skill.language {
+  background: #455A64;
+}
 .experience-and-projects {
   margin: 30px;
   width: 60%;
@@ -161,7 +171,7 @@ nav ul li a:hover {
   float: left;
   max-width: 40%;
   margin: 30px 30px 0 30px;
-  color: #1A237E;
+  color: #263238;
 }
 .sidebar h4 {
   font-size: 225%;
@@ -179,6 +189,9 @@ nav ul li a:hover {
   margin-bottom: 30px;
   padding-bottom: 20px;
   font-weight: 300;
+}
+.education-info li {
+  padding-bottom: 2px;
 }
 .education-img{
   margin: 0 10px 10px 0;
@@ -207,7 +220,7 @@ nav ul li a:hover {
   clear: left;
   list-style-type: none;
   text-align: center;
-  background-color: #81D4FA;
+  background-color: #263238;
 }
 .social li {
   display: inline;
@@ -226,7 +239,7 @@ footer.second {
   padding: 15px 0 15px 0;
   text-align: center;
   max-height: 20px;
-  color: #4FC3F7;
+  color: #5C6BC0;
 }
 /*---End Footers---*/
 /*---Start Media Adjustment---*/
@@ -270,10 +283,6 @@ footer.second {
   }
   .social i {
     font-size: 140%;
-  }
-  .Main h2 {
-    font-size: 200%;
-    font-weight: 300;
   }
   .EducationMain {
     width: 100%;
