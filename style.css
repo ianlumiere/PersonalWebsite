@@ -122,7 +122,6 @@ nav ul li a:hover {
 /*---End Banner---*/
 /*---Start Main Section---*/
 .content {
-  /*color: #1A237E;*/
   color: #263238;
 }
 .content h4 {
@@ -276,6 +275,38 @@ footer.second {
   .one-fourth i {
     font-size: 200%;
     padding: 4% 0 1% 0;
+  }
+  .content h4 {
+    text-align: center;
+    font-size: 225%;
+    font-weight: 300;
+  }
+  .content h5 {
+    font-size: 140%;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .content li {
+    font-weight: 300;
+    margin: 15px;
+  }
+  .skills-list {
+    margin: 15px;
+  }
+  .skills-list .skill {
+    white-space: nowrap;
+    padding: 3px 7px;
+    border-radius: 5px;
+    font-size: 13px;
+    background: #607D8B;
+    color: #FFFFFF;
+  }
+  .skills-list .skill.language {
+    background: #455A64;
+  }
+  .projects h4 {
+    margin-top: 70px;
   }
   .social i {
     font-size: 140%;
