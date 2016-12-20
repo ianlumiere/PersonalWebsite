@@ -280,8 +280,9 @@ footer.second {
   .social i {
     font-size: 140%;
   }
-  .EducationMain {
+  .experience-and-projects {
     width: 100%;
+    margin: 20px;
   }
 }
 /*---End Media Adjustment---*/
