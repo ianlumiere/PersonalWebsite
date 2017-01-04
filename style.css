@@ -332,12 +332,14 @@ footer.second {
   }
   .skills i {
     font-size: 200%;
+    text-align: center;
   }
   .skills li {
     display: inline;
     margin: 15px;
     font-size: 100%;
     font-weight: 300;
+    text-align: center;
   }
   .social i {
     font-size: 140%;
