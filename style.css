@@ -20,7 +20,7 @@ h3 {
   float: left;
   width: 90px;
   height: 90px;
-  background: url(file:///Users/ianlumiere/Documents/cutmypic%2070x70px.png) no-repeat center;
+  background: url(http://i.imgur.com/5zcPz6c.png) no-repeat center;
 }
 /*---Start Navigation Style---*/
 nav {
@@ -67,7 +67,7 @@ nav ul li a:hover {
   width: 100%;
   height: auto;
   min-height: 400px;
-  background-image: url(file:///Users/ianlumiere/Dropbox/CS%20Projects/Resume%20Website/img/20483.jpg);
+  background-image: url(http://i.imgur.com/QdGd8tX.jpg);
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -246,7 +246,7 @@ footer.second {
     position: absolute;
   }
   #logo {
-    background: url(file:///Users/ianlumiere/Documents/cutmypic%2070x70px.png) no-repeat center;
+    background: url(http://i.imgur.com/5zcPz6c.png) no-repeat center;
   }
   #menu-icon {
     display: inline-block;
