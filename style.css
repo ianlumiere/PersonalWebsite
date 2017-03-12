@@ -22,6 +22,9 @@ h3 {
   height: 90px;
   background: url(http://i.imgur.com/5zcPz6c.png) no-repeat center;
 }
+a {
+  text-decoration-style: none;
+}
 /*---Start Navigation Style---*/
 nav {
   float: right;
