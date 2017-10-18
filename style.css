@@ -71,6 +71,14 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-position: center top;
 }
+.banner-inner-blog {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  background-image: url(https://i.imgur.com/zHr50AA.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
 .one-fourth {
   width: 25%;
   float: left;
