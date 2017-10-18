@@ -1,1 +1,37 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+  background: #FFFFFF;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+/*---Start Footers---*/
+.social {
+  clear: left;
+  list-style-type: none;
+  text-align: center;
+  background-color: #263238;
+}
+.social li {
+  display: inline;
+}
+.social i {
+  font-size: 200%;
+  margin: 1%;
+  padding: 1% 5% 1% 5%;
+  color: #FFFFFF;
+  transition: all 0.5s ease;
+}
+.social i:hover {
+  color: #5C6BC0;
+}
+footer.second {
+  padding: 15px 0 15px 0;
+  text-align: center;
+  max-height: 20px;
+  color: #5C6BC0;
+}
+/*---End Footers---*/
